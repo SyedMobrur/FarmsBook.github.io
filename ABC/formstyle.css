@@ -1,0 +1,118 @@
+*{
+padding: 0px 0px;
+margin: 0;
+box-sizing: border-box;
+}
+.bdy{
+    background-image: linear-gradient(to left,rgba(24, 36, 75, 0.151) , #666), url(./image/slide1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Noto Serif', serif;
+    align-items: center !important;
+    justify-content: center;
+    
+    display:flex;
+    min-height: 100vh;
+    width: 100wh;
+    
+    
+}
+.container{
+    
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    box-shadow: 0 2.8px rgba(0,0,0,0.34) 0 6.7px 5.3px rgba(0,0,0,0.048), 0 12.1px 10px;
+    overflow: hidden;
+    width: calc(100vw - 40vw);
+    max-width: 100%;
+}
+.cotainer .header{
+    background:linear-gradient(to left,rgba(29, 117, 15, 0.411) , #666), url(./image/slide1.jpg); ;
+    padding: 30px 0px;
+}
+.header h2{
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.form .btn{
+    background:linear-gradient(to left,rgba(37, 15, 117, 0.753) , rgb(160, 5, 5)) ;
+    border-radius: 6px;
+    outline: none;
+    color: #fff;
+    display: block;
+    font-family: 'Noto Serif', serif ;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-transform:uppercase ;
+    transition: all 1s ease;
+
+}
+.form .btn:hover{
+    background: linear-gradient(to left, rgb(160, 5, 5),rgba(37, 15, 117, 0.753) ,) ;
+}
+@media(max-weidth:998px){
+    .container{
+        width: calc(100vw - 5vw)!important;
+        max-width: 100%;
+    }
+}
+.form{
+    padding: 50px;
+
+}
+.form-control{
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+display:inline-block;
+margin-bottom: 5px;
+}
+.form-control input{
+    width: 100%;
+    border:3px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    padding: 15px;
+    
+
+} 
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+.form-control.success input{
+    border-color: rgb(8, 230, 64);
+}
+.form-control.error input{
+    border-color: #e74c4c !important;
+    
+}
+.form-control i{
+    position: absolute;
+    right:12px;
+    top: 45px;
+    visibility: hidden;
+}
+.form-control.success i.fa-check-circle{
+color:rgb(8, 230, 64) ;
+visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c4c ;
+    visibility: visible;
+}
+.form-control small{
+    color: red;
+     position: absolute;
+     left: 0px;
+    visibility: hidden;
+}
