@@ -59,7 +59,7 @@
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container2:hover .overlay {
+.container2 .overlay {
   opacity: 1;
 }
 
