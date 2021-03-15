@@ -20,7 +20,9 @@
    margin: 0px;
    height: 110vh;
    width: 100%;
-   background-image: url(./image/slide1.jpg);
+   background-image: url(./image/bb.jpg);
+   opacity: 8;
+  
    display: block;
    background-size: 100% 100%;
    align-items: center;
@@ -28,7 +30,7 @@
 }
 .about{
     margin-top: 100px;
-    background:rgba(0, 128, 0, 0.342);
+    background:rgba(1, 63, 1, 0.644);
    
 }
 .about h1
@@ -40,6 +42,8 @@
 }
 .about p1{
     margin-top: 30px;
+    line-height: 35px;
+    letter-spacing: 1px;
     
 }
 .about p1,p2{
@@ -232,7 +236,7 @@ margin: auto;
     margin: 0px;
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/slide1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/bb1.jpg);
     
     display: block;
     background-size: 100% 100%;
@@ -258,3 +262,26 @@ margin: auto;
     color: #fff);
 }
 
+ol {
+    background: #5f7e69;
+    padding: 50px 50px;
+    color: #e9f1e9;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  ul {
+ 
+  }
+  
+  ol li {
+    background: #2d422d56;
+    padding: 15px 20px 5px;
+    margin-left:5px;
+  }
+  
+  ul li {
+    
+    margin: 0px;
+  }

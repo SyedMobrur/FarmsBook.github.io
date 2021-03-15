@@ -166,7 +166,7 @@
     margin: 0px 10px;
     align-items: center;
     text-align: center;
-    background:linear-gradient(rgba(4, 68, 23, 0.5),rgba(72, 84, 109, 0.5));
+    background:linear-gradient(rgba(150, 22, 81, 0.5),rgba(11, 37, 95, 0.5));
     margin-left: px;
     height: auto;
     
@@ -177,9 +177,9 @@
 }
 .extra-div:hover
 {
-    box-shadow: 10px 0px 10px 0 rgba(17, 124, 8, 0.849);
+    box-shadow: 10px 0px 10px 0 rgba(52, 59, 52, 0.849);
     transform: translatez(10px);
-    background:#0e7405d2;
+    background:linear-gradient(rgba(11, 37, 95, 0.5),rgba(150, 22, 81, 0.5));
 }
 .icon{
     background: #ffffff;
@@ -188,8 +188,56 @@
     color: rgb(35, 175, 77);
     
 }
-.overlap{
 
+.sell-div1{
+  margin: 0px 0px;
+  width: 230px;
+  align-items: center;
+ color: #fff;
+ 
+  margin-top: 5px;
+  align-items: center;
+  text-align: center;
+  
+
+}
+.sell-div1 .sell-div .sell-div2{
+  color: #0976B4;
+  margin:0px;
+  width: 50px; height:50px; border-radius: 50%; background-color: aliceblue;
+  margin-left: 45%;
+}
+.sell-div1 .sell-div .sell-div2 img{
+  width: 75px; height:70px; border-radius: 50%; background-color: aliceblue;
+  margin-left: -20px;
+}
+.sell-div i{
+  color: #0c5f1d;
+}
+.sell-div1 .sell-div{
+padding: 20px;
+background: grey;
+height: 200px;
+
+
+}
+.howSell{
+  justify-content: space-around;
+}
+.howSell{
+  height: auto;
+  width: 100%;
+  
+
+}
+.sell1{
+
+}
+.sell-div1 sell-div1{
+  width: 200px;
+}
+.sell-div-b{
+  margin-top: 30px;
 }
 .app-photo{
     z-index: 7;
@@ -657,7 +705,7 @@ border: 3px solid #24e90a;
 /*--------Review-------------*/
 .review1{
   margin-top: -15px;
-  background-image: linear-gradient(#81e9a470, #b8bdbd42);
+  background-image: linear-gradient(#32c4329f, #b8bdbd42);
     background-repeat: no-repeat;
     color: #000;
     overflow-x: hidden
@@ -673,7 +721,7 @@ border: 3px solid #24e90a;
     
 }
 .bg{
-  background-image: linear-gradient(#35e54ccb,#0baadb70);
+  background-image: linear-gradient(#35e54ccb,#0bdbb870);
 
 }
 a {
@@ -687,16 +735,21 @@ a:hover {
 .card {
   border-radius: 5px;
   background-color: #fff;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 5px;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px
+  padding-top: 10px;
+  padding-bottom: 0px;
+  display: block;
+  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .rating-box {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   margin-right: auto;
   margin-left: auto;
   background-color: #FBC02D;
@@ -791,7 +844,7 @@ td {
   width: 90px;
   height: 90px;
   border-radius: 100%;
-  margin-right: 30px
+  margin-right: 0px
 }
 
 .pic {
@@ -880,5 +933,7 @@ font-family: Roboto, Arial, sans-serif;
        padding-top: 0px;
 
       }
+
+
     
     }
